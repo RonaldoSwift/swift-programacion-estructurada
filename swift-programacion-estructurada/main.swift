@@ -7,8 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa para calcular el area y perimetro del pentagono: ")
+print("Ingrese el numero de lado: ")
+private let lado = Int(readLine()!)!
+print("Ingrese el apotema: ")
+private let apotema = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
+let area = calcularAreaPentagono(lado: lado, apotema: apotema)
+let perimetro = calcularPerimetroPentagono(lado: lado)
 
-print(suma)
+imprimirAreaYPerimetroDelPentagono(area: area, perimetro: perimetro)

@@ -7,7 +7,15 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularAreaPentagono(lado: Int, apotema:Int) -> Int {
+    return (lado * apotema) / 2
 }
 
+public func calcularPerimetroPentagono(lado: Int) -> Int {
+    return 5 * lado
+}
+
+public func imprimirAreaYPerimetroDelPentagono(area:Int, perimetro:Int){
+    print("El area es: \(area)")
+    print("El perimetro es: \(perimetro)")
+}
