@@ -7,8 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que realize la suma de los numeros enteros ****")
+print("Ingrese primer numero: ")
+private let primerNumero = Int(readLine()!)!
+print("Ingrese segundo numero: ")
+private let segundoNumero = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+let suma = calcularSuma(primerNunmero: primerNumero, segundoNumero: segundoNumero)
+imprimirResultado(suma: suma)

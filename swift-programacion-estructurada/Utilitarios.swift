@@ -7,7 +7,10 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularSuma(primerNunmero:Int, segundoNumero:Int) -> Int {
+    return primerNunmero + segundoNumero
 }
 
+public func imprimirResultado(suma: Int) {
+    print("La suma es: \(suma)")
+}
