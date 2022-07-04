@@ -19,8 +19,10 @@ class swift_programacion_estructura_test: XCTestCase {
     }
 
     func testExample() throws {
-        let suma = calcularSuma(a: 10, b: 20)
-        XCTAssertTrue(suma == 30)
+        let perimetro = calcularPerimetro(base: 5, altura: 6)
+        XCTAssertTrue(perimetro == 22)
+        let area = calcularArea(base: 5, altura: 6)
+        XCTAssertTrue(area == 30)
     }
 
     func testPerformanceExample() throws {

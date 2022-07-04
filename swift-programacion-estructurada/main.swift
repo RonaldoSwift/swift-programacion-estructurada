@@ -7,8 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que calcule el perimetro y area del rectangulo ****")
+print("Ingrese base: ")
+private let base = Int(readLine()!)!
+print("Ingrese haltura: ")
+private let altura = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
+let perimetro = calcularPerimetro(base: base, altura: altura)
+let area = calcularArea(base: base, altura: altura)
 
-print(suma)
+imprimirResultado(perimetro: perimetro, area: area)
