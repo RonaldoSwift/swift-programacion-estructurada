@@ -19,8 +19,11 @@ class swift_programacion_estructura_test: XCTestCase {
     }
 
     func testExample() throws {
-        let suma = calcularSuma(a: 10, b: 20)
-        XCTAssertTrue(suma == 30)
+        let cociente = calcularCociente(numeroUno: 5, numeroDos: 6)
+        XCTAssertTrue(cociente == 0)
+        
+        let residuo = calcularResiduo(numeroUno: 5, numeroDos: 6)
+        XCTAssertTrue(residuo == 5)
     }
 
     func testPerformanceExample() throws {
