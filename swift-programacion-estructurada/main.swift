@@ -7,13 +7,8 @@
 
 import Foundation
 
-print("**** Programa para calcular el perimetro y area del circulo ****")
-print("Ingrese radio: ")
-private let radio = Double(readLine()!)!
-private let area : Double
-private let perimetro : Double
+print("Hello, World!")
 
-area = calcularArea(radio: radio)
-perimetro = calcularPerimetro(radio: radio)
+let suma = calcularSuma(a: 10, b: 20)
 
-imprmirPerimetroYArea(area: area, perimetro: perimetro)
+print(suma)
