@@ -7,8 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que calcule el cuadrado de 243 ****")
+private let cuadrado = calcularCuadrado()
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirResultado(cuadrado: cuadrado)

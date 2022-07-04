@@ -7,7 +7,10 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularCuadrado() -> Int {
+    return 243 * 243
 }
 
+public func imprimirResultado(cuadrado: Int){
+    print("El cuadrado de 243 es: \(cuadrado)")
+}
