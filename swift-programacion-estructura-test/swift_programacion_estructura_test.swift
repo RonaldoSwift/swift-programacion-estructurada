@@ -18,7 +18,7 @@ class swift_programacion_estructura_test: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testDadoLosNumerosIngresadosEl5Y6CalcularLaHipotenusaDeUnTrianguloRectangulo() throws {
         let hipotenusa = calcularHipotenusa(primerCateto: 5, segundoCateto: 6)
         XCTAssertTrue(hipotenusa == 12)
     }
