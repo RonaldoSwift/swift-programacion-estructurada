@@ -7,7 +7,8 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func imprimirResultado(marca:String, modelo:String) {
+    print("La marca es: \(marca)")
+    print("El modelo es: \(modelo)")
 }
 

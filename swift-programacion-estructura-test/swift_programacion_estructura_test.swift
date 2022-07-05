@@ -19,8 +19,7 @@ class swift_programacion_estructura_test: XCTestCase {
     }
 
     func testExample() throws {
-        let suma = calcularSuma(a: 10, b: 20)
-        XCTAssertTrue(suma == 30)
+        var imprimir = imprimirResultado(marca: "Glory", modelo: "123")
     }
 
     func testPerformanceExample() throws {

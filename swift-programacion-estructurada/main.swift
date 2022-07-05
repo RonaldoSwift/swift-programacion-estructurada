@@ -7,8 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Problema que lea marca y modelo de auto ****")
+print("Ingrese modelo: ")
+private let modelo = String(readLine()!)
+print("Ingrese marca: ")
+private let marca = String(readLine()!)
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirResultado(marca: marca, modelo: modelo)
