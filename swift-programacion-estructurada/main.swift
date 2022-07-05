@@ -7,8 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa para calcular la hipotenusa de un trianguo rectangulo ****")
+print("Ingrese primer cateto: ")
+private let primerCateto = Int(readLine()!)!
+print("Ingrese segundo cateto: ")
+private let segundoCateto = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
+let hipotenusa = calcularHipotenusa(primerCateto: primerCateto, segundoCateto: segundoCateto)
 
-print(suma)
+imprimirResultado(hipotenusa: hipotenusa)
