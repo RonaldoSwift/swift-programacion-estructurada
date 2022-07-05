@@ -18,7 +18,7 @@ class swift_programacion_estructura_test: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testDadoElIngresoDeUnNumeroDeValor100YElPorcentaje10PorcientoCalcularELPorcentajeDeLaCantidad() throws {
         let resultado = calcularPorcentaje(numero: 100, porcentaje: 10)
         XCTAssertTrue(resultado == 10)
     }
