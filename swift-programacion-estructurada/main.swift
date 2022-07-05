@@ -7,8 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Calcule el porcentaje de una cantidad ****")
+print("Ingrese numero: ")
+private let numero = Int(readLine()!)!
+print("Ingrese porcentaje: ")
+private let porcentaje = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
+let resultado = calcularPorcentaje(numero: numero, porcentaje: porcentaje)
 
-print(suma)
+imprimirResultado(resultado: resultado, numero: numero, porcentaje: porcentaje)

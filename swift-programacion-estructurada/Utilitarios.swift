@@ -7,7 +7,11 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularPorcentaje(numero: Int, porcentaje: Int) -> Int {
+    return (numero * porcentaje) / 100
+}
+
+public func imprimirResultado(resultado:Int, numero: Int, porcentaje: Int){
+    print("El \(porcentaje)% de \(numero) es: \(resultado)")
 }
 
