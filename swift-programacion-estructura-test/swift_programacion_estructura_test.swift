@@ -19,7 +19,7 @@ class swift_programacion_estructura_test: XCTestCase {
     }
 
     func testExample() throws {
-        var imprimir = imprimirResultado(marca: "Glory", modelo: "123")
+        
     }
 
     func testPerformanceExample() throws {
