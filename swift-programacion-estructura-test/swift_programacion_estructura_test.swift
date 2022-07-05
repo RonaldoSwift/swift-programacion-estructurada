@@ -18,9 +18,12 @@ class swift_programacion_estructura_test: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testDadoLaBaseConElValorDe5YAlturaConValorDe6CalcularPerimetro() throws {
         let perimetro = calcularPerimetro(base: 5, altura: 6)
         XCTAssertTrue(perimetro == 22)
+    }
+    
+    func testDadoLaBaseConValorDe5YAlturaConValorDe6CalcularElArea() throws{
         let area = calcularArea(base: 5, altura: 6)
         XCTAssertTrue(area == 30)
     }
