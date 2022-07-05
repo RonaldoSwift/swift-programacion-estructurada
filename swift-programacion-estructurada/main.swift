@@ -7,8 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que indique cual es el mayor de cuatro numeros enteros ****")
+print("Ingrese 4 numeros: ")
 
-let suma = calcularSuma(a: 10, b: 20)
+private let primerNumero = Int(readLine()!)!
+private let segundoNumero = Int(readLine()!)!
+private let tercerNumero = Int(readLine()!)!
+private let cuartoNumero = Int(readLine()!)!
 
-print(suma)
+calcularElMayor(primerNumero: primerNumero, segundoNumero: segundoNumero, tercerNumero: tercerNumero, cuartoNumero: cuartoNumero)
+
