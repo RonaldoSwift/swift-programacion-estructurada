@@ -18,10 +18,12 @@ class swift_programacion_estructura_test: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testDadoDosNumeros10Y5CalcularCociente() throws {
         let cociente = calcularCociente(numeroUno: 5, numeroDos: 6)
         XCTAssertTrue(cociente == 0)
-        
+    }
+    
+    func testDadoDosNumeros10Y5CalcularResiduo() throws {
         let residuo = calcularResiduo(numeroUno: 5, numeroDos: 6)
         XCTAssertTrue(residuo == 5)
     }
