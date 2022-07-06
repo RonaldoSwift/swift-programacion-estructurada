@@ -7,8 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa para indicar si una persona tiene sobrepeso ****")
+print("Ingrese estatura: ")
+private let estatura = Int(readLine()!)!
+print("Ingrese peso: ")
+private let peso = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirSobrePeso(estatura: estatura, peso: peso)
