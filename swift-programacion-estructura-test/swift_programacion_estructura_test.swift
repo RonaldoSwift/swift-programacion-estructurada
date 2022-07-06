@@ -19,8 +19,8 @@ class swift_programacion_estructura_test: XCTestCase {
     }
 
     func testDadoElNumero28VerificarQueEsUnNumeroDivisibleDe14() throws {
-        let suma = calcularSuma(a: 10, b: 20)
-        XCTAssertTrue(suma == 30)
+        let divisible = calcularDivisible(numero: 208)
+        XCTAssertTrue(divisible == false)
     }
 
     func testPerformanceExample() throws {

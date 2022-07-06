@@ -7,8 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que indique si un numero es divisibble entre 14 ****")
+print("Ingrese numero: ")
+private let numero = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirDivisible(numero: numero)
