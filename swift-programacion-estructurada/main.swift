@@ -7,8 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que indique si un numero es par o impar ****")
+print("Ingrese un Numero:")
+private let primerNumero = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirNumeroParOImpar(primerNumero: primerNumero)
