@@ -7,7 +7,19 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularMultiploDeSeis(primerNumero: Int) -> Bool{
+    if (primerNumero % 6 == 0){
+        return true
+    }
+    return false
+}
+
+public func imprimirResultado(primerNumero: Int) {
+    let esMultiploDeSeis = calcularMultiploDeSeis(primerNumero: primerNumero)
+    if(esMultiploDeSeis){
+        print("El numero si es multiplo de 6")
+    }else{
+        print("El numero no es multiplo de 6")
+    }
 }
 
