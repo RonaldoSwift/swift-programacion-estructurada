@@ -7,8 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Indicar si la suma de dos valores es positiva, negativa o cero")
+print("Ingrese primer numero: ")
+private let primerNumero = Int(readLine()!)!
+print("Ingrese segundo numero: ")
+private let segundoNumero = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimiSiEsPositivoONegativo(primerNumero: primerNumero, segundoNumero: segundoNumero)
