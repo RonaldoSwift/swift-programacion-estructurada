@@ -7,8 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("calcule el más grande, el más pequeño y la media de N números.")
+print("Ingrese la cantidad de numeros: ")
+private let cantidadDeNumeros = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirCalculoDeGrandePequeñoMediano(cantidadDeNumeros: cantidadDeNumeros)
