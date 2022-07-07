@@ -7,8 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Escribir un programa que despliegue el dia de semana dado un numero de dia ****")
+print("Ingrese numero (1-7): ")
+private let numeroDeDiaDeSemana = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirDiaDeSemana(numeroDeDiaDeSemana: numeroDeDiaDeSemana)

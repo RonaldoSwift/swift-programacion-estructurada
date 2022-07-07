@@ -7,7 +7,30 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func imprimirDiaDeSemana(numeroDeDiaDeSemana: Int){
+    switch(numeroDeDiaDeSemana){
+    case 1:
+        print("Domingo")
+        break
+    case 2:
+        print("Lunes")
+        break
+    case 3:
+        print("Martes")
+        break
+    case 4:
+        print("Miercoles")
+        break
+    case 5:
+        print("Jueves")
+        break
+    case 6:
+        print("Viernes")
+        break
+    case 7:
+        print("Sabado")
+        break
+    default:
+        print("Error...")
+    }
 }
-
