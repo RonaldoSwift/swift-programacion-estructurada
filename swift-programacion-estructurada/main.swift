@@ -7,8 +7,15 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que calcule el area de un cuadrado, un rectangulo y triangulo ****")
 
-let suma = calcularSuma(a: 10, b: 20)
+print(" --------------------------- ")
+print("|           MENU            |")
+print("|     1)Area Cuadrado       |")
+print("|     2)Area Rectangulo     |")
+print("|     3)Area Triangulo      |")
+print("|___________________________|")
+print("ingrese numero: 1-3")
+private let opcion = Int(readLine()!)!
 
-print(suma)
+imprimirArea(opcion: opcion)
