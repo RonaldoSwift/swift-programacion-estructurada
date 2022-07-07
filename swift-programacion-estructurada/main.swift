@@ -7,8 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que calcule el cambio del cliente ****")
+print("Ingrese monto:")
+private let monto = Int(readLine()!)!
+print("Ingrese costo: ")
+private let costo = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirMensaje(monto: monto, costo: costo)

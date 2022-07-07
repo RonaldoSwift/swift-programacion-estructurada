@@ -18,9 +18,14 @@ class swift_programacion_estructura_test: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        let suma = calcularSuma(a: 10, b: 20)
-        XCTAssertTrue(suma == 30)
+    func testDadoElIngresoAlMontoQueEs1000YElCostoQueEs500AlDarElVuelto() throws {
+        let vueltoDelCliente = calcularCambio(monto: 1000, costo: 500)
+        XCTAssertTrue(vueltoDelCliente == 500)
+    }
+    
+    func testDadoElIngresoDelMontoQueEs100YElCostoQueEs500DarResultado() throws {
+        let faltanteDelCliente = calcularCambio(monto: 100, costo: 500)
+        XCTAssertTrue(faltanteDelCliente == 400)
     }
 
     func testPerformanceExample() throws {
