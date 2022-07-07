@@ -6,9 +6,8 @@
 //
 
 import Foundation
+print("Programa pàra saber el angulo ")
+print("Ingrese numero de angulo: ")
+private let numeroDeAngulo = Int(readLine()!)!
 
-print("Hello, World!")
-
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirAngulo(numeroDeAngulo: numeroDeAngulo)
