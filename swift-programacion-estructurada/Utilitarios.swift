@@ -7,7 +7,20 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularSiEsDivisible(primerNumero: Int) -> Bool{
+    if(primerNumero % 14 == 0){
+        return true
+    } else{
+        return false
+    }
 }
 
+public func imprimirMensaje(primerNumero: Int) {
+    let calcularDivisibleDeCatorce = calcularSiEsDivisible(primerNumero: primerNumero)
+    
+    if(calcularDivisibleDeCatorce){
+        print("El numero \(primerNumero) si es divisible entre 14")
+    }else{
+        print("El numero \(primerNumero) no es divisible entre 14")
+    }
+}
