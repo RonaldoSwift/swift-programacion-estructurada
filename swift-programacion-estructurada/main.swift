@@ -7,8 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+print("Programa quede de 10 numeros  cuantos positivos y negativos hay")
+ imprimirPositivoYNegativo()
