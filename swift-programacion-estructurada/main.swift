@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+print("PROGRAMA QUE SUME  LA SERIE DEL 3 AL 99 DE 3 EN 3:")
+private let calcular = calcularResultado()
+print(calcular)

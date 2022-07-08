@@ -7,7 +7,13 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func calcularResultado() -> String {
+    var i = 3
+    var a = 0
+    
+    while(i <= 99){
+        a = a + i
+        i = i + 3
+    }
+    return "La suma de la cerie 3,6,9 ... es : \(a)"
 }
-
