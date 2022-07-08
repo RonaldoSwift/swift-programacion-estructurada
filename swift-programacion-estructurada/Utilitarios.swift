@@ -7,7 +7,13 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
-}
 
+public func calcularImparesDelCieteAlSincuentaYUno(){
+    
+    var i = 7
+    
+    while(i <= 51){
+        print(i)
+        i += 2
+    }
+}
