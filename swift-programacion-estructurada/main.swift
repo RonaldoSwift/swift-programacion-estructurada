@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("programa que verifica si un dato ingresado por teclado corresponde a la contraseña 252525")
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirContraseñaCorrecta()

@@ -7,7 +7,15 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func imprimirContraseñaCorrecta() {
+    print("Ingrese contraseña: ")
+    let numeroIngresado = Int(readLine()!)!
+    repeat{
+        if(numeroIngresado != 252525){
+            print("Contraseña incorrecta")
+            break
+        }else{
+            print("Contraseña correcta")
+        }
+    }while(numeroIngresado != 252525)
 }
-
