@@ -7,7 +7,12 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
+public func imprimirSuma(){
+    var total = 0
+    for i in 1...25 {
+        print("Dame un numero: ")
+        let primerNumero = Int(readLine()!)!
+        total += primerNumero
+    }
+    print("La suma es: \(total)")
 }
-

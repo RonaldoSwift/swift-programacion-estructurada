@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Programa que te de la suma de 25 numeros")
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirSuma()
