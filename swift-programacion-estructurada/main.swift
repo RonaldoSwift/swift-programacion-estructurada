@@ -7,8 +7,15 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que indique el numero de digitos que tiene una cantidad a la izquierda del punto decimal ****")
+print("Ingrese numero: ")
+private var x = Double(readLine()!)!
+private var c = 0
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+repeat {
+    
+    x /= 10
+    c += 1
+    
+} while(x > 1)
+print("Digitos de la izquierda: \(c)")
