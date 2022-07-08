@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("programa que imprima en pantalla los enteros del 1 al 30 con sus recíprocos:")
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirReciproco()

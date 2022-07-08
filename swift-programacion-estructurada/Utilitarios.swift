@@ -7,7 +7,9 @@
 
 import Foundation
 
-public func calcularSuma(a: Int, b: Int) -> Int {
-    return a + b
-}
 
+public func imprimirReciproco(){
+    for i in 1...30 {
+        print("\(i) el reciproco es: 1/\(i)")
+    }
+}
