@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("PROGRAMA QUE LLENA UN VERTOR  CON 0 EN LAS POSICIONES PARES Y 1 EN LAS POSICONES IMPARES")
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirCalculoDeParesImpares()
