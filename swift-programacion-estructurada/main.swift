@@ -6,9 +6,9 @@
 //
 
 import Foundation
+print("Programa que de cuantos elementos positivos da el usuarios:")
+print("¿De que tamanaño quieres que sea tu vector")
 
-print("Hello, World!")
+private let tamañoDelVector = Int(readLine()!)!
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirElementosPositivos(tamañoDeVector: tamañoDelVector)
