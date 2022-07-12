@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("programa que guarde la presión de 30 personas por tres días e indique día que la persona tuvo mayor presión, menor presión:")
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+calcularPresionMayorYMenor()
