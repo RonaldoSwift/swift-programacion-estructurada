@@ -7,8 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+print("**** Programa que indique mayor y menor ****")
+print("Ingrese tamaño de vector: ")
 
-let suma = calcularSuma(a: 10, b: 20)
+private var tamañoDeVector = Int(readLine()!)!
 
-print(suma)
+imprimirElementosPositivos(tamañoDeVector: tamañoDeVector)
