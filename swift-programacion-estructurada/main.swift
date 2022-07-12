@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print("PROGRAMA QUE BUSCQUE EL VALOR DE UN VECTOR")
 
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+imprimirBusqueda()
