@@ -7,8 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+print("Programa que dice que planta produce mas")
+calcularProduccion()
