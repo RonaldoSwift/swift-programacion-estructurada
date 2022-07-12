@@ -7,8 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
-let suma = calcularSuma(a: 10, b: 20)
-
-print(suma)
+print("programa que capture con número enteros una matriz de 10 X 10 y al final de cada renglón imprima la suma de sus elementos")
+calcularSumaDeUnVectorPorFila()
