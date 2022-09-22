@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FB7F70F12870CFFA001DC774 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F02870CFFA001DC774 /* main.swift */; };
-		FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
 		FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */; };
-		FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
+		FB83307F28D4ECA800E37DA7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83307E28D4ECA800E37DA7 /* Item.swift */; };
+		FB83308128D4ECF600E37DA7 /* Categoria .swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308028D4ECF600E37DA7 /* Categoria .swift */; };
+		FB83308328D4EE0700E37DA7 /* Almacen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308228D4EE0700E37DA7 /* Almacen.swift */; };
+		FB83308528D4EE1200E37DA7 /* Sede.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308428D4EE1200E37DA7 /* Sede.swift */; };
+		FB83308728D4EE1F00E37DA7 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308628D4EE1F00E37DA7 /* Producto.swift */; };
+		FB83308928D4EE2F00E37DA7 /* Orden.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308828D4EE2F00E37DA7 /* Orden.swift */; };
+		FB83308B28D4EE4400E37DA7 /* OrdenDetall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308A28D4EE4400E37DA7 /* OrdenDetall.swift */; };
+		FB83308D28D4EE5600E37DA7 /* CarritoDeCompras.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83308C28D4EE5600E37DA7 /* CarritoDeCompras.swift */; };
+		FBD5FBB628DBFB4900F57C66 /* Constates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBB528DBFB4900F57C66 /* Constates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +35,17 @@
 /* Begin PBXFileReference section */
 		FB7F70ED2870CFFA001DC774 /* swift-programacion-estructurada */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-programacion-estructurada"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70F02870CFFA001DC774 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FB7F70F72870D2F9001DC774 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
 		FB7F70FD2870D749001DC774 /* swift-programacion-estructura-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-programacion-estructura-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_programacion_estructura_test.swift; sourceTree = "<group>"; };
+		FB83307E28D4ECA800E37DA7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FB83308028D4ECF600E37DA7 /* Categoria .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categoria .swift"; sourceTree = "<group>"; };
+		FB83308228D4EE0700E37DA7 /* Almacen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almacen.swift; sourceTree = "<group>"; };
+		FB83308428D4EE1200E37DA7 /* Sede.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sede.swift; sourceTree = "<group>"; };
+		FB83308628D4EE1F00E37DA7 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		FB83308828D4EE2F00E37DA7 /* Orden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orden.swift; sourceTree = "<group>"; };
+		FB83308A28D4EE4400E37DA7 /* OrdenDetall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenDetall.swift; sourceTree = "<group>"; };
+		FB83308C28D4EE5600E37DA7 /* CarritoDeCompras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoDeCompras.swift; sourceTree = "<group>"; };
+		FBD5FBB528DBFB4900F57C66 /* Constates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +88,15 @@
 			isa = PBXGroup;
 			children = (
 				FB7F70F02870CFFA001DC774 /* main.swift */,
-				FB7F70F72870D2F9001DC774 /* Utilitarios.swift */,
+				FB83308C28D4EE5600E37DA7 /* CarritoDeCompras.swift */,
+				FB83308A28D4EE4400E37DA7 /* OrdenDetall.swift */,
+				FB83308828D4EE2F00E37DA7 /* Orden.swift */,
+				FB83308628D4EE1F00E37DA7 /* Producto.swift */,
+				FB83308428D4EE1200E37DA7 /* Sede.swift */,
+				FB83308228D4EE0700E37DA7 /* Almacen.swift */,
+				FB83308028D4ECF600E37DA7 /* Categoria .swift */,
+				FB83307E28D4ECA800E37DA7 /* Item.swift */,
+				FBD5FBB528DBFB4900F57C66 /* Constates.swift */,
 			);
 			path = "swift-programacion-estructurada";
 			sourceTree = "<group>";
@@ -175,8 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB83308928D4EE2F00E37DA7 /* Orden.swift in Sources */,
+				FB83307F28D4ECA800E37DA7 /* Item.swift in Sources */,
+				FBD5FBB628DBFB4900F57C66 /* Constates.swift in Sources */,
+				FB83308B28D4EE4400E37DA7 /* OrdenDetall.swift in Sources */,
+				FB83308D28D4EE5600E37DA7 /* CarritoDeCompras.swift in Sources */,
+				FB83308328D4EE0700E37DA7 /* Almacen.swift in Sources */,
 				FB7F70F12870CFFA001DC774 /* main.swift in Sources */,
-				FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */,
+				FB83308728D4EE1F00E37DA7 /* Producto.swift in Sources */,
+				FB83308528D4EE1200E37DA7 /* Sede.swift in Sources */,
+				FB83308128D4ECF600E37DA7 /* Categoria .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +216,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */,
-				FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
