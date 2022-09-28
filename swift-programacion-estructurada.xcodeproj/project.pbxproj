@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FB7F70F12870CFFA001DC774 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F02870CFFA001DC774 /* main.swift */; };
-		FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
 		FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */; };
-		FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
+		FBD5FBB828DCD70800F57C66 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBB728DCD70800F57C66 /* Item.swift */; };
+		FBD5FBBA28DCD71900F57C66 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBB928DCD71800F57C66 /* Categoria.swift */; };
+		FBD5FBBC28DCD72500F57C66 /* Almacen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBBB28DCD72500F57C66 /* Almacen.swift */; };
+		FBD5FBBE28DCD72E00F57C66 /* Sede.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBBD28DCD72E00F57C66 /* Sede.swift */; };
+		FBD5FBC028DCD73B00F57C66 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBBF28DCD73B00F57C66 /* Producto.swift */; };
+		FBD5FBC228DCD74400F57C66 /* Orden.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBC128DCD74400F57C66 /* Orden.swift */; };
+		FBD5FBC428DCD75600F57C66 /* OrdenDetall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBC328DCD75600F57C66 /* OrdenDetall.swift */; };
+		FBD5FBC628DCD76500F57C66 /* CarritoDeCompras.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBC528DCD76500F57C66 /* CarritoDeCompras.swift */; };
+		FBD5FBC828DCD9CE00F57C66 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5FBC728DCD9CE00F57C66 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +35,17 @@
 /* Begin PBXFileReference section */
 		FB7F70ED2870CFFA001DC774 /* swift-programacion-estructurada */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-programacion-estructurada"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70F02870CFFA001DC774 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FB7F70F72870D2F9001DC774 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
 		FB7F70FD2870D749001DC774 /* swift-programacion-estructura-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-programacion-estructura-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_programacion_estructura_test.swift; sourceTree = "<group>"; };
+		FBD5FBB728DCD70800F57C66 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FBD5FBB928DCD71800F57C66 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		FBD5FBBB28DCD72500F57C66 /* Almacen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Almacen.swift; sourceTree = "<group>"; };
+		FBD5FBBD28DCD72E00F57C66 /* Sede.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sede.swift; sourceTree = "<group>"; };
+		FBD5FBBF28DCD73B00F57C66 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		FBD5FBC128DCD74400F57C66 /* Orden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orden.swift; sourceTree = "<group>"; };
+		FBD5FBC328DCD75600F57C66 /* OrdenDetall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenDetall.swift; sourceTree = "<group>"; };
+		FBD5FBC528DCD76500F57C66 /* CarritoDeCompras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoDeCompras.swift; sourceTree = "<group>"; };
+		FBD5FBC728DCD9CE00F57C66 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +88,15 @@
 			isa = PBXGroup;
 			children = (
 				FB7F70F02870CFFA001DC774 /* main.swift */,
-				FB7F70F72870D2F9001DC774 /* Utilitarios.swift */,
+				FBD5FBC528DCD76500F57C66 /* CarritoDeCompras.swift */,
+				FBD5FBC328DCD75600F57C66 /* OrdenDetall.swift */,
+				FBD5FBC128DCD74400F57C66 /* Orden.swift */,
+				FBD5FBBF28DCD73B00F57C66 /* Producto.swift */,
+				FBD5FBBD28DCD72E00F57C66 /* Sede.swift */,
+				FBD5FBBB28DCD72500F57C66 /* Almacen.swift */,
+				FBD5FBB928DCD71800F57C66 /* Categoria.swift */,
+				FBD5FBB728DCD70800F57C66 /* Item.swift */,
+				FBD5FBC728DCD9CE00F57C66 /* Constantes.swift */,
 			);
 			path = "swift-programacion-estructurada";
 			sourceTree = "<group>";
@@ -175,8 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD5FBC228DCD74400F57C66 /* Orden.swift in Sources */,
+				FBD5FBB828DCD70800F57C66 /* Item.swift in Sources */,
+				FBD5FBC428DCD75600F57C66 /* OrdenDetall.swift in Sources */,
+				FBD5FBC628DCD76500F57C66 /* CarritoDeCompras.swift in Sources */,
+				FBD5FBBC28DCD72500F57C66 /* Almacen.swift in Sources */,
+				FBD5FBC828DCD9CE00F57C66 /* Constantes.swift in Sources */,
 				FB7F70F12870CFFA001DC774 /* main.swift in Sources */,
-				FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */,
+				FBD5FBC028DCD73B00F57C66 /* Producto.swift in Sources */,
+				FBD5FBBE28DCD72E00F57C66 /* Sede.swift in Sources */,
+				FBD5FBBA28DCD71900F57C66 /* Categoria.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +216,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */,
-				FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
