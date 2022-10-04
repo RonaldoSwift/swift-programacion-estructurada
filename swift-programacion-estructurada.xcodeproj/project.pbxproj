@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB17C67128EB4BB700F9D5E8 /* ModeloEtapaDesarme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17C67028EB4BB700F9D5E8 /* ModeloEtapaDesarme.swift */; };
+		FB17C67328EB631400F9D5E8 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17C67228EB631400F9D5E8 /* Deque.swift */; };
+		FB17C67528EB9E5C00F9D5E8 /* ModeloRevicionYReparacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17C67428EB9E5C00F9D5E8 /* ModeloRevicionYReparacion.swift */; };
+		FB17C67728EBC10C00F9D5E8 /* ModeloEnsamblaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17C67628EBC10C00F9D5E8 /* ModeloEnsamblaje.swift */; };
+		FB590DF028E5100A0086887A /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB590DEF28E5100A0086887A /* Constantes.swift */; };
+		FB590DF228E601F20086887A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB590DF128E601F20086887A /* Stack.swift */; };
+		FB590DF428E79F7D0086887A /* ModeloEtapaDeArribo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB590DF328E79F7D0086887A /* ModeloEtapaDeArribo.swift */; };
 		FB7F70F12870CFFA001DC774 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F02870CFFA001DC774 /* main.swift */; };
 		FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
 		FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */; };
@@ -26,6 +33,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB17C67028EB4BB700F9D5E8 /* ModeloEtapaDesarme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloEtapaDesarme.swift; sourceTree = "<group>"; };
+		FB17C67228EB631400F9D5E8 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		FB17C67428EB9E5C00F9D5E8 /* ModeloRevicionYReparacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloRevicionYReparacion.swift; sourceTree = "<group>"; };
+		FB17C67628EBC10C00F9D5E8 /* ModeloEnsamblaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloEnsamblaje.swift; sourceTree = "<group>"; };
+		FB590DEF28E5100A0086887A /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		FB590DF128E601F20086887A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		FB590DF328E79F7D0086887A /* ModeloEtapaDeArribo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloEtapaDeArribo.swift; sourceTree = "<group>"; };
 		FB7F70ED2870CFFA001DC774 /* swift-programacion-estructurada */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-programacion-estructurada"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70F02870CFFA001DC774 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB7F70F72870D2F9001DC774 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
@@ -74,6 +88,13 @@
 			children = (
 				FB7F70F02870CFFA001DC774 /* main.swift */,
 				FB7F70F72870D2F9001DC774 /* Utilitarios.swift */,
+				FB590DEF28E5100A0086887A /* Constantes.swift */,
+				FB590DF128E601F20086887A /* Stack.swift */,
+				FB590DF328E79F7D0086887A /* ModeloEtapaDeArribo.swift */,
+				FB17C67028EB4BB700F9D5E8 /* ModeloEtapaDesarme.swift */,
+				FB17C67228EB631400F9D5E8 /* Deque.swift */,
+				FB17C67428EB9E5C00F9D5E8 /* ModeloRevicionYReparacion.swift */,
+				FB17C67628EBC10C00F9D5E8 /* ModeloEnsamblaje.swift */,
 			);
 			path = "swift-programacion-estructurada";
 			sourceTree = "<group>";
@@ -175,8 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB590DF228E601F20086887A /* Stack.swift in Sources */,
+				FB17C67328EB631400F9D5E8 /* Deque.swift in Sources */,
 				FB7F70F12870CFFA001DC774 /* main.swift in Sources */,
 				FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */,
+				FB17C67128EB4BB700F9D5E8 /* ModeloEtapaDesarme.swift in Sources */,
+				FB590DF028E5100A0086887A /* Constantes.swift in Sources */,
+				FB17C67728EBC10C00F9D5E8 /* ModeloEnsamblaje.swift in Sources */,
+				FB17C67528EB9E5C00F9D5E8 /* ModeloRevicionYReparacion.swift in Sources */,
+				FB590DF428E79F7D0086887A /* ModeloEtapaDeArribo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
