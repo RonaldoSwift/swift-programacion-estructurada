@@ -11,6 +11,8 @@
 		FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
 		FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */; };
 		FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
+		FB936CDC28F4C10200DF2B13 /* Libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB936CDB28F4C10200DF2B13 /* Libro.swift */; };
+		FB936CDE28F4C47700DF2B13 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB936CDD28F4C47700DF2B13 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		FB7F70F72870D2F9001DC774 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
 		FB7F70FD2870D749001DC774 /* swift-programacion-estructura-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-programacion-estructura-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_programacion_estructura_test.swift; sourceTree = "<group>"; };
+		FB936CDB28F4C10200DF2B13 /* Libro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libro.swift; sourceTree = "<group>"; };
+		FB936CDD28F4C47700DF2B13 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			children = (
 				FB7F70F02870CFFA001DC774 /* main.swift */,
 				FB7F70F72870D2F9001DC774 /* Utilitarios.swift */,
+				FB936CDB28F4C10200DF2B13 /* Libro.swift */,
+				FB936CDD28F4C47700DF2B13 /* Stack.swift */,
 			);
 			path = "swift-programacion-estructurada";
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB936CDE28F4C47700DF2B13 /* Stack.swift in Sources */,
+				FB936CDC28F4C10200DF2B13 /* Libro.swift in Sources */,
 				FB7F70F12870CFFA001DC774 /* main.swift in Sources */,
 				FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */,
 			);
