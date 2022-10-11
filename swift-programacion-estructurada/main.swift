@@ -22,25 +22,25 @@ repeat{
     print("Ingrese opcion: ")
     let opcion = Int(readLine()!)!
     switch(opcion){
-    case 1:
-        ingresarUnLibroALaPila()
+    case INGRESAR_UN_LIBRO_A_LA_PILA:
         repeat{
-        print("\nQuieres seguir ingresando libro a la Pila: ")
-        let ingresarLibro = readLine()!
-            if(ingresarLibro == "Si" || ingresarLibro == "si" || ingresarLibro == "sI" || ingresarLibro == "SI"){
-                ingresarUnLibroALaPila()
+            ingresarUnLibroALaPila()
+            print("\nQuieres seguir ingresando libro a la Pila: ")
+            let ingresarLibro = readLine()!
+            if(ingresarLibro.lowercased() == "Si"){
+                continue
             } else{
                 break
             }
         } while(true)
         break
-    case 2:
+    case EXTRARE_UN_LIBRO_DE_LA_PILA:
         extraerUnLibroDeLaPila()
         break
-    case 3:
+    case MOSTRAR_TODOS_LOS_LIBROS_DE_LA_PILA:
         mostrarTodosLoslibros()
         break
-    case 4:
+    case VALIDAR_TAMAÑO_SI_LA_PILA_ESTA_LLENA_O_VACIA:
         validarTamañoYSiLaPilaEstaLLenaOVacia()
         break
     default:

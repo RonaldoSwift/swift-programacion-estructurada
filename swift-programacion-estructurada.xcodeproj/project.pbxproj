@@ -13,6 +13,7 @@
 		FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
 		FB936CDC28F4C10200DF2B13 /* Libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB936CDB28F4C10200DF2B13 /* Libro.swift */; };
 		FB936CDE28F4C47700DF2B13 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB936CDD28F4C47700DF2B13 /* Stack.swift */; };
+		FBAF62AE28F5E14000CDF414 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF62AD28F5E14000CDF414 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_programacion_estructura_test.swift; sourceTree = "<group>"; };
 		FB936CDB28F4C10200DF2B13 /* Libro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libro.swift; sourceTree = "<group>"; };
 		FB936CDD28F4C47700DF2B13 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		FBAF62AD28F5E14000CDF414 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FB7F70F72870D2F9001DC774 /* Utilitarios.swift */,
 				FB936CDB28F4C10200DF2B13 /* Libro.swift */,
 				FB936CDD28F4C47700DF2B13 /* Stack.swift */,
+				FBAF62AD28F5E14000CDF414 /* Constantes.swift */,
 			);
 			path = "swift-programacion-estructurada";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAF62AE28F5E14000CDF414 /* Constantes.swift in Sources */,
 				FB936CDE28F4C47700DF2B13 /* Stack.swift in Sources */,
 				FB936CDC28F4C10200DF2B13 /* Libro.swift in Sources */,
 				FB7F70F12870CFFA001DC774 /* main.swift in Sources */,
