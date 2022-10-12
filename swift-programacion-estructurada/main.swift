@@ -27,7 +27,7 @@ repeat{
             ingresarUnLibroALaPila()
             print("\nQuieres seguir ingresando libro a la Pila: ")
             let ingresarLibro = readLine()!
-            if(ingresarLibro.lowercased() == "Si"){
+            if(ingresarLibro.lowercased() == "si"){
                 continue
             } else{
                 break
