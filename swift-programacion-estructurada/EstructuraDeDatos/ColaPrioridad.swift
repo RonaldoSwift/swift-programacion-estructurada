@@ -10,7 +10,7 @@ import Foundation
 struct ColaPrioridad<T> {
     fileprivate var heap: Heap<T>
     
-    public init(sort: (T, T) -> Bool) {
+    public init(sort: @escaping (T, T) -> Bool) {
         heap = Heap(sort: sort)
     }
     
@@ -37,4 +37,8 @@ struct ColaPrioridad<T> {
     public mutating func changePriority(index i: Int, value: T) {
         return heap.replace(index: i, value: value)
     }
+    
+    func obtenerElementos() -> [T]{
+         return array
+     }
 }

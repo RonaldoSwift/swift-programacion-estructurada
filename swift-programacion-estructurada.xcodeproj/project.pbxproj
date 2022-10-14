@@ -11,8 +11,10 @@
 		FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
 		FB7F71002870D749001DC774 /* swift_programacion_estructura_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */; };
 		FB7F71042870DA0A001DC774 /* Utilitarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F70F72870D2F9001DC774 /* Utilitarios.swift */; };
-		FBAF62AA28F5DECA00CDF414 /* colaPrioridad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF62A928F5DECA00CDF414 /* colaPrioridad.swift */; };
-		FBAF62AC28F5DEF100CDF414 /* usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF62AB28F5DEF100CDF414 /* usuario.swift */; };
+		FBAF62AA28F5DECA00CDF414 /* ColaPrioridad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF62A928F5DECA00CDF414 /* ColaPrioridad.swift */; };
+		FBAF62AC28F5DEF100CDF414 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF62AB28F5DEF100CDF414 /* Usuario.swift */; };
+		FBDB891028F9E2DF005F0D9D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB890F28F9E2DF005F0D9D /* Heap.swift */; };
+		FBDB891228FA0AA1005F0D9D /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB891128FA0AA1005F0D9D /* Funciones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +35,10 @@
 		FB7F70F72870D2F9001DC774 /* Utilitarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitarios.swift; sourceTree = "<group>"; };
 		FB7F70FD2870D749001DC774 /* swift-programacion-estructura-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-programacion-estructura-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_programacion_estructura_test.swift; sourceTree = "<group>"; };
-		FBAF62A928F5DECA00CDF414 /* colaPrioridad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colaPrioridad.swift; sourceTree = "<group>"; };
-		FBAF62AB28F5DEF100CDF414 /* usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usuario.swift; sourceTree = "<group>"; };
+		FBAF62A928F5DECA00CDF414 /* ColaPrioridad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaPrioridad.swift; sourceTree = "<group>"; };
+		FBAF62AB28F5DEF100CDF414 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		FBDB890F28F9E2DF005F0D9D /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		FBDB891128FA0AA1005F0D9D /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +80,11 @@
 		FB7F70EF2870CFFA001DC774 /* swift-programacion-estructurada */ = {
 			isa = PBXGroup;
 			children = (
+				FBDB891328FA0AC2005F0D9D /* EstructuraDeDatos */,
 				FB7F70F02870CFFA001DC774 /* main.swift */,
 				FB7F70F72870D2F9001DC774 /* Utilitarios.swift */,
-				FBAF62A928F5DECA00CDF414 /* colaPrioridad.swift */,
-				FBAF62AB28F5DEF100CDF414 /* usuario.swift */,
+				FBAF62AB28F5DEF100CDF414 /* Usuario.swift */,
+				FBDB891128FA0AA1005F0D9D /* Funciones.swift */,
 			);
 			path = "swift-programacion-estructurada";
 			sourceTree = "<group>";
@@ -90,6 +95,15 @@
 				FB7F70FF2870D749001DC774 /* swift_programacion_estructura_test.swift */,
 			);
 			path = "swift-programacion-estructura-test";
+			sourceTree = "<group>";
+		};
+		FBDB891328FA0AC2005F0D9D /* EstructuraDeDatos */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF62A928F5DECA00CDF414 /* ColaPrioridad.swift */,
+				FBDB890F28F9E2DF005F0D9D /* Heap.swift */,
+			);
+			path = EstructuraDeDatos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAF62AC28F5DEF100CDF414 /* usuario.swift in Sources */,
+				FBAF62AC28F5DEF100CDF414 /* Usuario.swift in Sources */,
+				FBDB891028F9E2DF005F0D9D /* Heap.swift in Sources */,
 				FB7F70F12870CFFA001DC774 /* main.swift in Sources */,
-				FBAF62AA28F5DECA00CDF414 /* colaPrioridad.swift in Sources */,
+				FBAF62AA28F5DECA00CDF414 /* ColaPrioridad.swift in Sources */,
+				FBDB891228FA0AA1005F0D9D /* Funciones.swift in Sources */,
 				FB7F70F82870D2F9001DC774 /* Utilitarios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

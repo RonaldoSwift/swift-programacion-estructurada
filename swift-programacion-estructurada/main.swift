@@ -7,7 +7,9 @@
 
 import Foundation
 
-var colaPrioridad : ColaPrioridad = ColaPrioridad()
+var colaPrioridad : ColaPrioridad<Usuario> = ColaPrioridad {nombre,apellido in
+    return false
+}
 
 
 repeat{
@@ -40,31 +42,3 @@ repeat{
     }
 } while(true)
 
-//Funciones
-
-func ingresarClienteALaCola(){
-    print("Ingrese Tipo de Usuario: (empresa,personal,visita)")
-    let usuario = readLine()!
-    print("Ingrese nombre: ")
-    let nombre = readLine()!
-    print("Ingrese apellido: ")
-    let apellido = readLine()!
-    print("Ingrese correo: ")
-    let correo = readLine()!
-    
-    
-    
-    
-}
-
-func eliminarClienteDeLaCola(){
-    
-}
-
-func mostrarTodosLosClientes(){
-    
-}
-
-func determinarTamañoYValidarSiEstaLlenoOVacio(){
-    
-}
