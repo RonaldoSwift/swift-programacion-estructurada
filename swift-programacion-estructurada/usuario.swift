@@ -8,8 +8,9 @@
 import Foundation
 
 struct Usuario {
-    let usuario: String
+    let tipo: String
     let nombre: String
     let apellido: String
     let correo: String
+    var prioridad: Int
 }

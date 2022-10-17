@@ -39,6 +39,6 @@ struct ColaPrioridad<T> {
     }
     
     func obtenerElementos() -> [T]{
-         return array
-     }
+        return heap.obtenerElementos()
+    }
 }

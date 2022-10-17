@@ -7,9 +7,6 @@
 
 import Foundation
 
-var colaPrioridad : ColaPrioridad<Usuario> = ColaPrioridad {nombre,apellido in
-    return false
-}
 
 
 repeat{
@@ -24,16 +21,25 @@ repeat{
     print("Ingrese una opcion: ")
     let opcion = Int(readLine()!)!
     switch(opcion){
-    case 1:
-        ingresarClienteALaCola()
+    case INGRESAR_CLIENTE_A_LA_COLA:
+        repeat{
+            ingresarClienteALaCola()
+            print("\nQuieres seguir ingresando libro a la Pila: ")
+            let ingresarCliente = readLine()!
+            if(ingresarCliente.lowercased() == "si"){
+                continue
+            } else{
+                break
+            }
+        } while(true)
         break
-    case 2:
+    case ELIMINAR_CLIENTE_DE_LA_COLA:
         eliminarClienteDeLaCola()
         break
-    case 3:
+    case MOSTRAR_TODOS_LOS_CLIENTES:
         mostrarTodosLosClientes()
         break
-    case 4:
+    case DETERMINAR_TAMAÑO_Y_VALIDAR_SI_ESTA_LLENA_O_VACIA:
         determinarTamañoYValidarSiEstaLlenoOVacio()
         break
     default:
@@ -41,4 +47,3 @@ repeat{
         break
     }
 } while(true)
-
