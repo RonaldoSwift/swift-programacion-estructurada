@@ -1,13 +1,13 @@
 //
-//  usuario.swift
+//  Usuario1.swift
 //  swift-programacion-estructurada
 //
-//  Created by Ronaldo Andre Vargas Huaman on 11/10/22.
+//  Created by Ronaldo Andre Vargas Huaman on 21/10/22.
 //
 
 import Foundation
 
-struct Usuario {
+struct Usuario1 {
     let tipo: String
     let nombre: String
     let apellido: String

@@ -8,7 +8,7 @@
 import Foundation
 
 
-private var colaPrioridad : ColaPrioridad<Usuario> = ColaPrioridad { (usuario1: Usuario, usuario2: Usuario) in
+private var colaPrioridad : ColaPrioridad<Usuario1> = ColaPrioridad { (usuario1: Usuario1, usuario2: Usuario1) in
     return usuario1.prioridad < usuario2.prioridad
 }
 
@@ -24,7 +24,7 @@ func ingresarClienteALaCola(){
     print("Ingrese correo: ")
     let correo = readLine()!
     
-    var usuario = Usuario.init(tipo: tipoUsuario, nombre: nombre, apellido: apellido, correo: correo, prioridad: 0)
+    var usuario = Usuario1.init(tipo: tipoUsuario, nombre: nombre, apellido: apellido, correo: correo, prioridad: 0)
     
     if(tipoUsuario.lowercased() == "empresa"){
         usuario.prioridad = 1
@@ -51,7 +51,7 @@ func eliminarClienteDeLaCola(){
 
 func mostrarTodosLosClientes(){
     print("\n|         Banco Usura          |")
-    colaPrioridad.obtenerElementos().forEach { (usuario: Usuario) in
+    colaPrioridad.obtenerElementos().forEach { (usuario: Usuario1) in
         print("USUARIO: \(usuario.tipo), \(usuario.nombre), \(usuario.apellido), \(usuario.correo)")
     }
     print("---------------------------------")
